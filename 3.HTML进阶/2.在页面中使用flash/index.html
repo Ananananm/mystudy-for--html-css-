@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <style>
+    object::after{
+      width: 600px;
+      height: 500px;
+    }
+  </style>
+</head>
+<body>
+  <!-- <object data="example.swf" type="application/x-shockwave-flash">
+    参数
+    <param name="" value="">
+  </object> -->
+  <!-- <embed src="example.swf" type="application/x-shockwave-flash"> -->
+    <!-- 兼容的写法 -->
+    <object data="example.swf" type="application/x-shockwave-flash">
+      <param name="quality" value="high">
+      <embed quality="high" src="./example.swf" type="application/x-shockwave-flash">
+    </object>
+</body>
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+
+  <style>
+    .container{
+      background: lightblue;
+      padding: 30px;
+    }
+    .float{
+      width: 200px;
+      height: 200px;
+      background: red;
+      margin:6px;
+      float: left;
+    }
+    /* 解决高度坍塌 */
+    .clearfix::after{
+      content: "";
+      display:block;
+      clear: both;
+    }
+  </style>
+</head>
+<body>
+  <div class="container ">
+    
+    <div class="float">1</div>
+    <div class="float">2</div>
+    <div class="float">3</div>
+    <div class="float">4</div>
+    <div class="float">5</div>
+    <div class="float">6</div>
+    <div class="float">7</div>
+    <div class="float">8</div>
+    <div class="float">9</div>
+    <div class="float">10</div>
+  </div>
+</body>
+</html>

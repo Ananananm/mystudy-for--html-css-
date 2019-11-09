@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <style>
+    div{
+      color: aqua;
+    }
+  </style>
+</head>
+<body>
+  <div>
+    <!-- 浏览器默认样式声明了color，而作者样式表中没有声明，所以用浏览器默认样式，而不会去继承父类样式 -->
+    <a href="">
+      链接一下
+    </a>
+    <!-- p元素没有声明（作者样式表和浏览器默认样式都没声明颜色），直接继承父类样式 -->
+    <p>lorem.</p>
+  </div>
+</body>
+</html>

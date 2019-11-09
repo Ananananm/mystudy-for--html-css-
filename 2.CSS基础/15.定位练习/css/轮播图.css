@@ -1,0 +1,75 @@
+.banner{
+  width: 500px;
+  height: 304px;
+  margin: 1em auto;
+  border: 1px solid;
+  position: relative;
+  overflow: hidden;
+}
+
+.banner .imgs{
+  width: 1560px;
+  height: 304px;
+}
+.banner .imgs a{
+  float: left;
+} 
+.banner .imgs img{
+  width: 502px;
+  height: 304px;
+}
+.banner .left,.banner .right{
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  text-align: center;
+  line-height: 50px;
+  font-size: 3em;
+  font-family: Arial;
+  color: #fff;
+  border-radius: 50%;
+}
+.banner .left{
+  left:20px;
+}
+.banner .right{
+  right:20px;
+}
+.banner .left:hover,.banner .right:hover{
+  background: #fff;
+  color: #f40;
+}
+.banner .modal{
+  width: 100%;
+  height: 40px;
+  background: rgba(0, 0, 0, .3);
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  line-height: 40px;
+  color: #fff;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+.banner .modal .title{
+  float: left;
+  font-weight: bold;
+}
+.banner .modal .dots{
+  float: right;
+}
+.banner .modal .dots li{
+  width: 8px;
+  height: 8px;
+  background: #fff;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 0 2px;
+  cursor: pointer;
+}
+.banner .modal .dots li:hover{
+  background: #f40;
+}
